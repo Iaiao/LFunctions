@@ -1,0 +1,12 @@
+commands:
+  func1:
+    - "say Hi"
+    - "say I'm a function"
+  greeting:
+    - "[SERVER] say Hello, %arg1"
+    - "[SERVER] say How are you?"
+    - "!!sleep 5" # the next commands will be executed after 5 seconds delay
+    - "[SERVER] say something else"
+
+events:
+  join: greeting # = [SERVER] /greeting <name> <display name>

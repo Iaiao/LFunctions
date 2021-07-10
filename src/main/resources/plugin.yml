@@ -1,0 +1,5 @@
+name: ${artifactId}
+main: ${groupId}.LFunctions
+author: Iaiao
+api-version: 1.13
+version: ${version}
